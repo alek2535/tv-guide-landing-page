@@ -1,3 +1,27 @@
 #tv-header {
     background-color: #333;
 }
+
+#flexbox-container {
+    background-color: #ececec;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; */
+}
+
+#slider-container {
+    background-color: #333;
+    /* width: 100%;
+    height: 100%;
+    overflow: hidden; */
+}
+
+#tv-footer {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
