@@ -4,12 +4,12 @@
 
 #flexbox-container {
     background-color: #ececec;
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: center; */
+    align-content: center;
 }
 
 #slider-container {
