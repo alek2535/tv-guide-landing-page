@@ -12,29 +12,32 @@
 
 #left-content {
     width: 50%;
-    padding-left: 10px;
 }
 
 #left-content img {
     width: 100%;
+    height: 100%;
 }
 
 #right-content {
     width: 50%;
-    padding-right: 10px;
-}
-
-#right-content-genres {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 50px;
+    justify-content: space-between;
+}
+
+#right-content-header-image {
+    width: 68%;
 }
 
 #genres {
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+#now-playing-image {
+    height: auto;
+    width: 100%;
 }
 
 #show-slider-container {
