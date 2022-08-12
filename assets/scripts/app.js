@@ -15,7 +15,7 @@ $(document).ready(function() {
     .then(function(response) {
         // LOGIC TO DYNAMICALLY CREATE TV SHOW SCHEDULE
         for (let i = 0; i < 24; i++) {
-            $(`<img src=${response[i].show.image.medium} alt=${response[i].show.name} class="slider-image responsive" />`).appendTo('#show-slider');
+            $(`<img src=${response[i].show.image.medium} alt="${response[i].show.name}" class="slider-image responsive" />`).appendTo('#show-slider');
         };
 
         // LOGIC TO CREATE SLIDER
