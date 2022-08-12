@@ -16,53 +16,58 @@
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header id="tv-header">
-        <img src="./assets/images/200201_01_tv_logo.png" alt="logo" />
-    </header>
-    <!-- FLEXBOX CONTAINER -->
-    <div id="flexbox-container">
-        <!-- LEFT CONTENT -->
-        <div id="left-content">
-            <img src="./assets/images/200201_02_pick_of_week.jpg" alt="pick-of-the-week" />
-        </div>
-        <!-- RIGHT CONTENT -->
-        <div id="right-content">
-            <img src="./assets/images/200201_03_popular_genre.png" alt="browse" id="right-content-header-image" />
-            <div id="genres">
-                <a href="#">
-                    <img src="./assets/images/200201_04_scifi.png" alt="sci-fi" />
-                </a>
-                <a href="#">
-                    <img src="./assets/images/200201_05_fantasy.png" alt="fantasy" />
-                </a>
-                <a href="#">
-                    <img src="./assets/images/200201_06_crime.png" alt="crime" />
-                </a>
-                <a href="#">
-                    <img src="./assets/images/200201_07_mystery.png" alt="mystery" />
-                </a>
+    <!-- CONTAINER FOR LANDING PAGE -->
+    <div class="container">
+        <!-- HEADER -->
+        <header id="tv-header">
+            <img src="./assets/images/200201_01_tv_logo.png" alt="logo" class="responsive" />
+        </header>
+        <!-- FLEXBOX CONTAINER -->
+        <div id="flexbox-container">
+            <!-- LEFT CONTENT -->
+            <div id="left-content">
+                <img src="./assets/images/200201_02_pick_of_week.jpg" alt="pick-of-the-week" class="responsive" />
             </div>
-            <img src="./assets/images/200201_08_now_playing.jpg" alt="now-playing" id="now-playing-image" />
+            <!-- RIGHT CONTENT -->
+            <div id="right-content">
+                <img src="./assets/images/200201_03_popular_genre.png" alt="browse" id="right-content-header-image"
+                    class="responsive" />
+                <div id="genres">
+                    <a href="#">
+                        <img src="./assets/images/200201_04_scifi.png" alt="sci-fi" class="responsive" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/200201_05_fantasy.png" alt="fantasy" class="responsive" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/200201_06_crime.png" alt="crime" class="responsive" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/200201_07_mystery.png" alt="mystery" class="responsive" />
+                    </a>
+                </div>
+                <img src="./assets/images/200201_08_now_playing.jpg" alt="now-playing" id="now-playing-image"
+                    class="responsive" />
+            </div>
         </div>
-    </div>
-    <!-- SHOW SLIDER -->
-    <div id="show-slider-container">
-        <img src="./assets/images/200201_09_tomorrow_schedule.png" alt="tomorrow-schedule" />
-        <div id="show-slider">
-            <!-- CONTENT GENERATED WITH APP.JS -->
+        <!-- SHOW SLIDER -->
+        <div id="show-slider-container">
+            <img src="./assets/images/200201_09_tomorrow_schedule.png" alt="tomorrow-schedule" class="responsive" />
+            <div id="show-slider">
+                <!-- CONTENT GENERATED WITH APP.JS -->
+            </div>
         </div>
+        <!-- FOOTER -->
+        <footer id="tv-footer">
+            <p>&copy; TV Logo 2022 All Rights Reserved.</p>
+        </footer>
     </div>
-    <!-- FOOTER -->
-    <footer id="tv-footer">
-        <p>&copy; TV Logo 2022 All Rights Reserved.</p>
-    </footer>
     <!-- JAVASCRIPT/JQUERY SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script type="text/javascript" src="./assets/scripts/app.js"></script>
 </body>
+
 </html>
