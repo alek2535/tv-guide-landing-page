@@ -1,7 +1,9 @@
 $(document).ready(function() {
     // LOGIC TO DYNAMICALLY GET TOMORROW'S DATE
     let date = new Date();
+    // Set date to tomorrow
     date.setDate(date.getDate() + 1);
+    // Subtract timezone offset to get correct date for tomorrow
     date.setMinutes(date.getMinutes() - date.getTimezoneOffset());
     let tomorrow = date.toISOString().slice(0, 10);
 
