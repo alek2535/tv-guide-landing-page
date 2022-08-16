@@ -63,7 +63,7 @@
     height: auto;
 }
 
-.slider-image {
+.slider-image-link {
     margin: 10px;
 }
 
@@ -73,7 +73,13 @@
     .container {
         max-width: 1200px;
         margin: 0% 25% 0% 25%;
+    }
+}
 
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+    .large-screen {
+        max-width: 90%;
+        height: auto;
     }
 }
 
